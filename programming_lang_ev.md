@@ -64,7 +64,7 @@ Fourth-generation languages are a class of programming tools that enable fast ap
 
 Why would anyone want to program in a lower-level language when they require so much more work? The answer is similar to why some prefer to drive stick-shift automobiles instead of automatic transmission: control and efficiency. Lower-level languages, such as assembly language, are much more efficient and execute much more quickly. You have finer control over the hardware as well. Sometimes, a combination of higher- and lower-level languages are mixed together to get the best of both worlds: the programmer will create the overall structure and interface using a higher-level language but will use lower-level languages for the parts of the program that are used many times or require more precision.
 
-![alt text](https://github.com/ "The programming language spectrum")
+![Programming Languages Spectrum](COMP1120/image/Programming-Languages-Spectrum.png  "The programming language spectrum")
 
 The programming language spectrum
 
