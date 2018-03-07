@@ -5,7 +5,7 @@ Early languages were specific to the type of hardware that had to be programmed;
 
 First-generation languages are called machine code. In machine code, programming is done by directly setting actual ones and zeroes (the bits) in the program using binary code. Here is an example program that adds 1234 and 4321 using machine language:
 
-`10111001 00000000
+```10111001 00000000
 
 11010010 10100001
 
@@ -31,11 +31,11 @@ First-generation languages are called machine code. In machine code, programming
 
 00001110 00000100
 
-00000010 00000000`
+00000010 00000000```
 
 Assembly language is the second-generation language. Assembly language gives english-like phrases to the machine-code instructions, making it easier to program. An assembly-language program must be run through an assembler, which converts it into machine code. Here is an example program that adds 1234 and 4321 using assembly language:
 
-`MOV CX,1234
+```MOV CX,1234
 
 MOV DS:[0],CX
 
@@ -47,17 +47,17 @@ MOV BX,DS:[2]
 
 ADD AX,BX
 
-MOV DS:[4],AX`
+MOV DS:[4],AX```
 
 Third-generation languages are not specific to the type of hardware on which they run and are much more like spoken languages. Most third-generation languages must be compiled, a process that converts them into machine code. Well-known third-generation languages include BASIC, C, Pascal, and Java. Here is an example using BASIC:
 
-`A=1234
+```A=1234
 
 B=4321
 
 C=A+B
 
-END`
+END```
 
 
 Fourth-generation languages are a class of programming tools that enable fast application development using intuitive interfaces and environments. Many times, a fourth-generation language has a very specific purpose, such as database interaction or report-writing. These tools can be used by those with very little formal training in programming and allow for the quick development of applications and/or functionality. Examples of fourth-generation languages include: Clipper, FOCUS, FoxPro, SQL, and SPSS.
